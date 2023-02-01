@@ -15,11 +15,11 @@ module.exports = {
       "@mui/styled-engine": "@mui/styled-engine-sc"
     }
   },
-  // jest: {
-  //   configure: {
-  //     moduleNameMapper: {
-  //       '^@mui/styled-engine$': '<rootDir>/node_modules/@mui/styled-engine-sc',
-  //     },
-  //   },
-  // },
+  jest: {
+    configure: {
+      moduleNameMapper: {
+        '^@mui/styled-engine$': '<rootDir>/node_modules/@mui/styled-engine-sc',
+      },
+    },
+  },
 };
