@@ -1,0 +1,39 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "build": "craco build",
+    "start": "craco start",
+    "test": "NODE_OPTIONS=--experimental-vm-modules craco test"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@mui/material": "^5.11.6",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "@craco/craco": "^7.0.0",
+    "@craco/types": "^7.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react-app-alias": "^2.2.2",
+    "typescript": "^4.9.4"
+  }
+}
